@@ -1,6 +1,7 @@
 import logging
 import os
-from aiogram import Bot, Dispatcher, executor, types
+import asyncio
+from aiogram import Bot, Dispatcher, types
 from db import models
 from bot import handlers, admin
 
